@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(134, 134, 134);
+    border: 5px solid orangered;
+    border-radius: 20px;
+    min-zoom: 150%;
+}
+
+h1 {
+    text-align: center;
+    font: 40px sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font: 60px sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font: 20px sans-serif;
+}
+
+button {
+    align-content:   center;
+    background-color: rgb(134, 134, 134);
+    border: 2px solid orangered;
+    font: 20px sans-serif;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    transition: opacity .2s;
+
+}
+
+button:hover {
+    background-color:rgb(125, 125, 125)
+}
+
+button:active {
+    background-color:rgb(104, 104, 104)
+}
+
+p {
+    text-align: center;
+    font: 20px sans-serif;
+}
+
+#To_do {
+    text-align: center;
+    font: 20px sans-serif;
+
+
+}
+
+div button {
+    align-content:   center;
+    background-color: rgb(134, 134, 134);
+    border: 2px solid orangered;
+    font: 15px sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div p {
+    padding-left: 20px;
+    text-align: left;
+    font: 10px sans-serif;
+}
+
+h4 {
+    text-align: center;
+}
+
+#pText {
+    font: 20px sans-serif;
+    text-align: center;
+    margin-right: 28px;
+}
+
+#keyframe test {
+    animation: opacity .5s;
+}
+
+input {
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+    border: 2px solid orangered;
+    border-radius: 5px;
+    width: 2in;
+    font-size: 15px;
+    height: 20px;
+}
