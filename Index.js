@@ -99,6 +99,6 @@ function add(){
     }
 }
 
-Function delete(){
+function delete(){
       document.getElementById("tasks").innerHTML = "";
 }
