@@ -96,3 +96,8 @@ input {
     font-size: 15px;
     height: 20px;
 }
+
+#tasks {
+    text-align: center;
+    font: 18px sans-serif;
+}

@@ -95,6 +95,6 @@ function runTime() {
 function add(){
     var boxImput = document.getElementById("box").value
     if(boxImput !=""){
-        console.log(boxImput)
+        document.getElementById("tasks").innerHTML = boxImput;
     }
 }
