@@ -98,3 +98,7 @@ function add(){
         document.getElementById("tasks").innerHTML = boxInput;
     }
 }
+
+Function delete(){
+      document.getElementById("tasks").innerHTML = "";
+}
