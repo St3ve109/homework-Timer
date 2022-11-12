@@ -100,5 +100,5 @@ function add(){
 }
 
 function delete(){
-      document.getElementById("tasks").innerHTML = "";
+      document.getElementById("tasks").innerHTML = "men";
 }
