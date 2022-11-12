@@ -93,8 +93,8 @@ function runTime() {
 //====================================To_do list==================================================
 
 function add(){
-    var boxImput = document.getElementById("box").value
-    if(boxImput !=""){
-        document.getElementById("tasks").innerHTML = boxImput;
+    var boxInput = document.getElementById("box").value
+    if(boxInput !=""){
+        document.getElementById("tasks").innerHTML = boxInput;
     }
 }
