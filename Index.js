@@ -96,9 +96,18 @@ function add(){
     var boxInput = document.getElementById("box").value
     if(boxInput !=""){
         document.getElementById("tasks").innerHTML = boxInput;
+        document.getElementById("box").value = "";
     }
 }
 
 function remove(){
       document.getElementById("tasks").innerHTML = "";
+}
+
+window.addEventListener("keydown", checkKey, false);
+
+function checkKey(e){
+    if(e.keyCode == "13"){
+        add();
+    }
 }
