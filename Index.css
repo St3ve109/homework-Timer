@@ -98,9 +98,16 @@ input {
 }
 
 #tasks_list button{
-    align-content: center;
-    align-items: center;
     font: 20px sans-serif;
     border: none;
+}
+
+#credits {
+    text-align: left;
+    margin-left: .2cm;
+    font: 10px sans-serif;
+}
+
+.container {
     text-align: center;
 }
