@@ -97,7 +97,10 @@ input {
     height: 20px;
 }
 
-#tasks {
+#tasks_list button{
+    align-content: center;
+    align-items: center;
+    font: 20px sans-serif;
+    border: none;
     text-align: center;
-    font: 18px sans-serif;
 }

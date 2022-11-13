@@ -99,6 +99,6 @@ function add(){
     }
 }
 
-function delete(){
-      document.getElementById("tasks").innerHTML = "men";
+function remove(){
+      document.getElementById("tasks").innerHTML = "";
 }
