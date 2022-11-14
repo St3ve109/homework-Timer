@@ -2,7 +2,8 @@ body {
     background-color: rgb(134, 134, 134);
     border: 5px solid orangered;
     border-radius: 20px;
-    min-zoom: 150%;
+    width: auto;
+    height: auto;
 }
 
 h1 {
