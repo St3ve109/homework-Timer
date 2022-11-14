@@ -64,6 +64,8 @@ function runTime() {
         document.getElementById("time").innerHTML = clock;
 
         if (time == 0) {
+            start = true
+            text = false;
             if(rest == false) {
                 if (long == 4) {
                     long = 0;
@@ -94,16 +96,26 @@ function runTime() {
 
 function add(){
     var boxInput = document.getElementById("box").value
+    
     if(boxInput !=""){
-        document.getElementById("tasks").innerHTML = boxInput;
+        addpoint(boxInput);
         document.getElementById("box").value = "";
     }
 }
 
-function remove(){
-      document.getElementById("tasks").innerHTML = "";
+function strike(element){
+    if(element.style.textDecoration == "line-through"){
+            element.style.textDecoration = "none";
+        } else {
+            element.style.textDecoration = "line-through";
+     }
 }
 
+function remove(element){
+    document.getElementById("box").value = "";
+    element.parentNode.remove();
+
+}
 
 
 window.addEventListener("keydown", checkKey, false);
@@ -112,3 +124,20 @@ function checkKey(e){
         add();
     }
 }
+
+function addpoint(task) {
+    var div = document.createElement("div");
+    var button = document.createElement("button");
+    var button2 = document.createElement("button");
+    button.onclick = function(){strike(this)}
+    button2.onclick = function(){remove(this)}
+    button.innerHTML = task;
+
+    const myImage = new Image();
+    myImage.src = 'AP tomato.png';
+    button2.appendChild(myImage);
+
+    document.getElementById("tasks_list").appendChild(div);
+    div.appendChild(button);
+    div.appendChild(button2);
+  }

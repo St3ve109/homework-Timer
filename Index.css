@@ -112,3 +112,9 @@ input {
 .container {
     text-align: center;
 }
+
+.task_list div {
+    display:block;
+    padding: auto;
+    align-items: center;
+}
