@@ -104,8 +104,9 @@ function remove(){
       document.getElementById("tasks").innerHTML = "";
 }
 
-window.addEventListener("keydown", checkKey, false);
 
+
+window.addEventListener("keydown", checkKey, false);
 function checkKey(e){
     if(e.keyCode == "13"){
         add();
