@@ -133,9 +133,9 @@ function addpoint(task) {
     button2.onclick = function(){remove(this)}
     button.innerHTML = task;
 
-    const myImage = new Image();
-    myImage.src = 'AP tomato.png';
-    button2.appendChild(myImage);
+    const trash = new Image(20,20);
+    trash.src = 'trash.png';
+    button2.appendChild(trash);
 
     document.getElementById("tasks_list").appendChild(div);
     div.appendChild(button);
