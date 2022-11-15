@@ -126,9 +126,9 @@ input {
 
 .task_list {
     background-color: rgb(114, 114, 114);
-    border: 0px solid royalblue;
+    border: 0px solid rgb(255, 255, 255);
     border-radius: 10px;
-    min-width: 500px;
+    min-width: max-content;
     width: fit-content;
     margin: auto;
 }
