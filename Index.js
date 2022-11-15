@@ -129,6 +129,7 @@ function addpoint(task) {
     var div = document.createElement("div");
     var button = document.createElement("button");
     var button2 = document.createElement("button");
+    
     button.onclick = function(){strike(this)}
     button2.onclick = function(){remove(this)}
     button.innerHTML = task;
