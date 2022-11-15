@@ -4,6 +4,7 @@ body {
     border-radius: 20px;
     width: auto;
     height: auto;
+    min-zoom: 3;
 }
 
 h1 {
