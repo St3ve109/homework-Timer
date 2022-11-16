@@ -1,6 +1,6 @@
 //Change these for Work and break
 var BREAK = 300;
-var WORK = 1500;
+var WORK = 15;
 var LONG_BREAK = 1800;
 
 var time = WORK;
@@ -64,8 +64,7 @@ function runTime() {
         document.getElementById("time").innerHTML = clock;
 
         if (time == 0) {
-            start = true
-            text = false;
+            start_stop
             if(rest == false) {
                 if (long == 4) {
                     long = 0;
@@ -129,7 +128,7 @@ function addpoint(task) {
     var div = document.createElement("div");
     var button = document.createElement("button");
     var button2 = document.createElement("button");
-    
+
     button.onclick = function(){strike(this)}
     button2.onclick = function(){remove(this)}
     button.innerHTML = task;
