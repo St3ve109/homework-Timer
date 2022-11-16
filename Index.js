@@ -1,6 +1,6 @@
 //Change these for Work and break
 var BREAK = 300;
-var WORK = 15;
+var WORK = 1500;
 var LONG_BREAK = 1800;
 
 var time = WORK;
@@ -64,7 +64,7 @@ function runTime() {
         document.getElementById("time").innerHTML = clock;
 
         if (time == 0) {
-            start_stop
+            start_stop();
             if(rest == false) {
                 if (long == 4) {
                     long = 0;
