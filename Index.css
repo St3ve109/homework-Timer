@@ -1,9 +1,8 @@
 body {
-    background-color: rgb(13, 17, 23);
-    border: 5px solid orangered;
+    background-color: hsl(216, 28%, 7%);
+    border: 5px solid rgb(229, 72, 72);
     border-radius: 20px;
-    width: auto;
-    height: auto;
+    float: unset; height: 100%; width: auto;
     min-zoom: 3;
     color: white;
 }
@@ -25,8 +24,8 @@ h3 {
 
 button {
     align-content:   center;
-    background-color: rgb(134, 134, 134);
-    border: 2px solid orangered;
+    background-color: rgb(229, 72, 72);
+    border: 2px solid rgb(229, 72, 72);
     font: 20px sans-serif;
     border-radius: 20px;
     color: rgb(255, 255, 255);
@@ -61,8 +60,8 @@ p {
 
 div button {
     align-content:   center;
-    background-color: rgb(134, 134, 134);
-    border: 2px solid orangered;
+    background-color: rgb(229, 72, 72);
+    border: 2px solid rgb(229, 72, 72);
     font: 15px sans-serif;
     color: rgb(0, 0, 0);
     padding: 4px;
@@ -92,8 +91,9 @@ h4 {
 
 input {
     text-align: center;
-    background-color: rgb(160, 160, 160);
-    border: 2px solid orangered;
+    background-color: rgb(229, 72, 72);
+    border: 2px solid rgb(255, 91, 80);
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     width: 2in;
     font-size: 15px;
