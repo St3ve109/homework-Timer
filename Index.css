@@ -2,8 +2,6 @@ body {
     background-color: hsl(216, 28%, 7%);
     border: 5px solid rgb(229, 72, 72);
     border-radius: 20px;
-    float: unset; height: 100%; width: auto;
-    min-zoom: 3;
     color: white;
 }
 
@@ -39,11 +37,13 @@ button {
 }
 
 button:hover {
-    background-color:rgb(125, 125, 125)
+    border-color: rgb(178, 55, 55);
+    background-color:rgb(178, 55, 55)
 }
 
 button:active {
-    background-color:rgb(104, 104, 104)
+    border-color: rgb(126, 39, 39);
+    background-color:rgb(126, 39, 39)
 }
 
 p {
@@ -103,7 +103,7 @@ input {
 #tasks_list button{
     font: 20px sans-serif;
     border: none;
-    background-color: rgb(149, 149, 149);
+    background-color: rgb(229, 72, 72);
 }
 
 #credits {
@@ -120,13 +120,13 @@ input {
 .task_list div {
     display:block;
     padding: auto;
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(20, 27, 37);
     align-items: center;
     border-radius: 10px;
 }
 
 .task_list {
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(20, 27, 37);
     border: 0px solid rgb(255, 255, 255);
     border-radius: 10px;
     min-width: max-content;
