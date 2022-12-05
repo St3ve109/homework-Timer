@@ -133,3 +133,12 @@ input {
     width: fit-content;
     margin: auto;
 }
+
+#box {
+    background-color: rgb(20, 27, 37);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    min-width: max-content;
+    width: fit-content;
+    margin: auto;
+}
