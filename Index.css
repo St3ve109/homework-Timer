@@ -1,11 +1,13 @@
+:root {
+    --textsize: 4.3vw;
+}
+
 body {
     background-color: hsl(216, 28%, 7%);
     border: 5px solid rgb(229, 72, 72);
     border-radius: 20px;
     color: white;        
-    margin: 0;
-    padding: 0;
-    font-family: 'Copperplate', Fantasy;
+
 }
 
 h1 {
@@ -15,7 +17,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font: 60px Copperplate;
+    font: 60px sans-serif;
 }
 
 h3 {
@@ -57,8 +59,11 @@ p {
 #To_do {
     text-align: center;
     font: 20px sans-serif;
+}
 
-
+.todo {
+    text-align: center;
+    font: 20px sans-serif;
 }
 
 div button {
@@ -70,12 +75,6 @@ div button {
     padding: 4px;
     margin: 10px;
     border-radius: 10px;
-}
-
-div p {
-    padding-left: 20px;
-    text-align: left;
-    font: 10px sans-serif;
 }
 
 h4 {
@@ -117,6 +116,7 @@ input {
 
 .container {
     text-align: center;
+
     
 }
 
@@ -146,11 +146,59 @@ input {
     margin: auto;
 }
 
+
 @media (min-width: 1000px) {
-    H1 {
-        float:left; display:inline; width: 49%;
+    body {
+        display: flex;
+        position: relative;
+        background-color: hsl(216, 28%, 7%);
+        border: 5px solid rgb(229, 72, 72);
+        border-radius: 20px;
+        color: white;        
+        margin: 0;
+        padding: 0;
+        font-size: var(--textsize);
     }
-    H2 {
-        float:left; display:inline; width: 49%;
+    h1 {
+        font-size: var(--textsize);
+        text-align: left;
+        padding-left: 30px;
     }
+    h2 {
+        font-size: var(--textsize);
+        padding-left: 150px;
+        text-align: left;
+    }
+    h3 {
+        font-size: var(--textsize);
+        padding-left: 150px;
+        text-align: left;
+    }
+    #work {
+        font-size: var(--textsize);
+        text-align: left;
+    }
+    .timer {
+        font-size: var(--textsize);
+        width: var(--textsize);
+        height: auto;
+        
+    }
+    .todo{
+        float: right;
+        font-size: var(--textsize);
+    }
+    #pText {
+        font-size: var(--textsize)
+        text-align left;
+        margin-left: 28px;
+    }
+    .task_list {
+        font-size: var(--textsize);
+        width: fit-content;
+        margin: auto;
+        overflow-y: scroll;
+        padding: 10px;
+    }
+
 }

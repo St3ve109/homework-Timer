@@ -12,23 +12,25 @@
 </head>
 <body class="size">
 
+    <div class="Timer">
+        <H1>
+            <img alt="hi" src="AP tomato.png" width="50px">
+            Homework Timer   
+        </H1>
 
-    <H1>
-        <img alt="hi" src="AP tomato.png" width="50px">
-        Homework Timer   
-    </H1>
+        <H2>
+            <div id="time">25:00</div>
+            <div id="work" class="center"><p id="pText">Work</p></div>
+        </H2>
 
-    <H2>
-        <div id="time">25:00</div>
-        <div id="work"><p id="pText">Work</p></div>
-    </H2>
+        <H3>
+            <button onclick="start_stop();"> <img src="play_pause.png" width="40px"></button>
+            <button onclick="resetTime();" id="reset">  <img src="reset.png" width="40px"></button>
+        </H3>
+    </div>
 
-    <H3>
-        <button onclick="start_stop();"> <img src="play_pause.png" width="40px"></button>
-        <button onclick="resetTime();" id="reset">  <img src="reset.png" width="40px"></button>
-    </H3>
-
-    <p>To-Do List</p>
+    <div class="todo">
+        <p>To-Do List</p>
 
     <div class="container">
         <div id="To_do">
@@ -39,6 +41,7 @@
             
         </div>
     </div>
+</div>
     
 </body>
 </html>
