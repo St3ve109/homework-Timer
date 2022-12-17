@@ -149,7 +149,7 @@ input {
 
 @media (min-width: 1000px) {
     body {
-        display: flex;
+        display: flex-end;
         position: relative;
         background-color: hsl(216, 28%, 7%);
         border: 5px solid rgb(229, 72, 72);
@@ -166,16 +166,13 @@ input {
     }
     h2 {
         font-size: var(--textsize);
+
         padding-left: 150px;
         text-align: left;
     }
     h3 {
         font-size: var(--textsize);
         padding-left: 150px;
-        text-align: left;
-    }
-    #work {
-        font-size: var(--textsize);
         text-align: left;
     }
     .timer {
@@ -188,10 +185,11 @@ input {
         float: right;
         font-size: var(--textsize);
     }
-    #pText {
-        font-size: var(--textsize)
-        text-align left;
-        margin-left: 28px;
+    .center {
+        font-size: var(--textsize);
+        margin-left: 0px;
+        text-align: left;
+
     }
     .task_list {
         font-size: var(--textsize);
