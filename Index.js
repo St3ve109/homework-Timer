@@ -1,7 +1,7 @@
 //Change these for Work and break
-var BREAK = 300;
-var WORK = 1500;
-var LONG_BREAK = 1800;
+const BREAK = 300;
+const WORK = 1500;
+const LONG_BREAK = 1800;
 
 var time = WORK;
 var long = 0;
@@ -61,6 +61,7 @@ function runTime() {
 
         console.clear();
         console.log(clock);
+        console.log(time);
         document.getElementById("time").innerHTML = clock;
 
         if (time == 0) {
@@ -138,10 +139,8 @@ function addpoint(task) {
     button2.appendChild(trash);
 
     document.getElementById("tasks_list").appendChild(div);
+    div.className = "solid";
     div.appendChild(button);
     div.appendChild(button2);
   }
 //====================================API_Integration==================================================
-
-function getCalenderLogin(){
-}
