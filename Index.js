@@ -16,7 +16,7 @@ var start = false
 //start/stop button
 function start_stop(){
     if(start == false){
-        stop=false;
+        stop = false;
         start = true
         text = false;
         document.getElementById("reset").style.opacity = "0.1";
@@ -34,7 +34,7 @@ function start_stop(){
 
 //reset button
 function resetTime() {
-    if (start==false){
+    if (start == false){
         document.getElementById("time").innerHTML = "25:00";
         document.getElementById("pText").innerHTML = "Work";
         console.clear();
@@ -72,6 +72,7 @@ function runTime() {
                     time = LONG_BREAK;
                     rest = true;
                     text = true;
+                    document.getElementById("break_length").innerHTML = "Time till Long break: 4";
                     document.getElementById("time").innerHTML = "Take a nice  long break";
                     document.getElementById("pText").innerHTML = "Long Break";
                 }else{
@@ -79,6 +80,7 @@ function runTime() {
                     time = BREAK;
                     rest = true;
                     text = true;
+                    document.getElementById("break_length").innerHTML = "Time till Long break: " + (5 - long);
                     document.getElementById("time").innerHTML = "Take a break";
                     document.getElementById("pText").innerHTML = "Break";
                 }
