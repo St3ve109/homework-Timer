@@ -86,6 +86,10 @@ h4 {
     /* text-align: center; */
     margin-right: 28px;
 }
+#break_length {
+    font: 20px sans-serif;
+    margin-right: 28px;
+}
 
 #keyframe test {
     animation: opacity .5s;
@@ -196,6 +200,10 @@ input {
     }
 
     #pText {
+        padding-left: 6vh;
+    }
+
+    #break_length {
         padding-left: 6vh;
     }
 }

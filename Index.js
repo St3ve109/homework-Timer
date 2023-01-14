@@ -1,7 +1,7 @@
 //Change these for Work and break
-const BREAK = 300;
-const WORK = 1500;
-const LONG_BREAK = 1800;
+const BREAK = 1;
+const WORK = 1;
+const LONG_BREAK = 1;
 
 var time = WORK;
 var long = 0;
@@ -67,7 +67,7 @@ function runTime() {
         if (time == 0) {
             start_stop();
             if(rest == false) {
-                if (long == 4) {
+                if (long == 3) {
                     long = 0;
                     time = LONG_BREAK;
                     rest = true;
@@ -80,7 +80,7 @@ function runTime() {
                     time = BREAK;
                     rest = true;
                     text = true;
-                    document.getElementById("break_length").innerHTML = "Time till Long break: " + (5 - long);
+                    document.getElementById("break_length").innerHTML = "Time till Long break: " + (4 - long);
                     document.getElementById("time").innerHTML = "Take a break";
                     document.getElementById("pText").innerHTML = "Break";
                 }
