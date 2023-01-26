@@ -1,7 +1,7 @@
 //Change these for Work and break
-const BREAK = 1;
-const WORK = 1;
-const LONG_BREAK = 1;
+const BREAK = 300;
+const WORK = 1500;
+const LONG_BREAK = 1800;
 
 var time = WORK;
 var long = 0;
