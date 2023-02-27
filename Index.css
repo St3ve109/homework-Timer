@@ -1,6 +1,6 @@
 
 body {
-    height: max-content;
+    width: fit-content max-content;
     background-color: hsl(216, 28%, 7%);
     border: 5px solid rgb(229, 72, 72);
     border-radius: 20px;
