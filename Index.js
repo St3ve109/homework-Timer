@@ -145,4 +145,3 @@ function addpoint(task) {
     div.appendChild(button);
     div.appendChild(button2);
   }
-//====================================API_Integration==================================================
