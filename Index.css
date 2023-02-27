@@ -1,5 +1,5 @@
 :root {
-    --textsize: 4.3vw;
+        --textsize: 4.3vw;
 }
 
 body {
@@ -83,7 +83,6 @@ h4 {
 
 #pText {
     font: 20px sans-serif;
-    /* text-align: center; */
     margin-right: 28px;
 }
 #break_length {
@@ -147,7 +146,7 @@ input {
 
 @media (min-width: 1000px) {
 
-    .Timer {margin-right: 30vh;}
+   /* .Timer {margin-right: 30vh;} */
 
     body {
         display: flex;
@@ -162,35 +161,34 @@ input {
     }
     h1 {
         font-size: var(--textsize);
-        text-align: left;
-        padding-left: 30px;
+        text-align: center;
+        padding-left: 3.2vw;
     }
     h2 {
         font-size: var(--textsize);
         /* padding-left: 150px; */
-        text-align: left;
+        text-align: center;
         padding-left: 24vh;
     }
     h3 {
         font-size: var(--textsize);
         padding-left: 24vh;
-        text-align: left;
+        text-align: center;
     }
     .timer {
-        font-size: var(--textsize);
-        width: var(--textsize);
-        height: auto;
-        
+        font-size: var(--textsize);  
+        float: right;
+        text-align: right;
     }
     .todo{
         float: right;
         font-size: var(--textsize);
-        text-align: center;
+        text-align: right;
     }
     .center {
         font-size: var(--textsize);
         margin-left: 0px;
-        text-align: left;
+        text-align: center;
 
     }
     .task_list {
@@ -200,10 +198,10 @@ input {
     }
 
     #pText {
-        padding-left: 6vh;
+        text-align: center;
     }
 
     #break_length {
-        padding-left: 6vh;
+        text-align: center;
     }
 }
