@@ -1,6 +1,3 @@
-:root {
-        --textsize: 4.3vw;
-}
 
 body {
     height: max-content;
@@ -53,7 +50,6 @@ button:active {
 }
 
 p {
-    /* text-align: center; */
     font: 20px sans-serif;
 }
 
