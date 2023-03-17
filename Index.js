@@ -11,7 +11,6 @@ var rest = false;
 var text = false;
 var start = false
 
-
 //================================================================================================
 //start/stop button
 function start_stop(){
@@ -118,7 +117,6 @@ function remove(element){
     element.parentNode.remove();
 
 }
-
 
 window.addEventListener("keydown", checkKey, false);
 function checkKey(e){

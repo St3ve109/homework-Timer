@@ -1,6 +1,5 @@
 
 body {
-    width: fit-content max-content;
     background-color: hsl(216, 28%, 7%);
     border: 5px solid rgb(229, 72, 72);
     border-radius: 20px;
@@ -127,7 +126,6 @@ input {
     border: 0px solid rgb(255, 255, 255);
     border-radius: 10px;
     min-width: max-content;
-    width: fit-content;
     margin: auto;
     margin-bottom: 10px;
 }
