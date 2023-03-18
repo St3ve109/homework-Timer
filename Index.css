@@ -1,10 +1,8 @@
-
 body {
     background-color: hsl(216, 28%, 7%);
     border: 5px solid rgb(229, 72, 72);
     border-radius: 20px;
-    color: white;        
-
+    color: white;  
 }
 
 h1 {
@@ -35,6 +33,8 @@ button {
     padding-left: 7px;
     padding-right: 7px;
     transition: opacity .2s;
+    max-width: 20vw;
+    text-overflow: hidden;
 
 }
 
@@ -71,6 +71,7 @@ div button {
     padding: 4px;
     margin: 10px;
     border-radius: 10px;
+    max-width: 94vw;
 }
 
 h4 {
@@ -79,7 +80,9 @@ h4 {
 
 #pText {
     font: 20px sans-serif;
+    /* text-align: center; */
     margin-right: 28px;
+    text-overflow: hidden;
 }
 #break_length {
     font: 20px sans-serif;
@@ -117,8 +120,10 @@ input {
     display:block;
     padding: auto;
     background-color: rgb(20, 27, 37);
+    margin-bottom: 10px;
     align-items: center;
     border-radius: 10px;
+    max-width: 90vw;
 }
 
 .task_list {
@@ -126,15 +131,16 @@ input {
     border: 0px solid rgb(255, 255, 255);
     border-radius: 10px;
     min-width: max-content;
+    width: fit-content;
     margin: auto;
-    margin-bottom: 10px;
+    text-overflow: hidden;
 }
 
 #box {
     background-color: rgb(20, 27, 37);
     border: 0px solid rgb(255, 255, 255);
     border-radius: 10px;
-    min-width: max-content;
     width: fit-content;
     margin: auto;
+    text-overflow: hidden;
 }
